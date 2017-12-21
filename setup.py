@@ -41,4 +41,5 @@ if __name__=='__main__':
         long_description = LONG_DESCRIPTION,
         classifiers = filter(None, CLASSIFIERS.split('\n')),
         platforms = PLATFORMS,
-        packages = ['thorlabs_apt'])
+        packages = ['thorlabs_apt'],
+       package_data={'': ['APT.dll']} )
